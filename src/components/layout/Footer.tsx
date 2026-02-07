@@ -36,7 +36,7 @@ export default function Footer() {
                 <MapPin className="h-5 w-5 text-primary-foreground" />
               </div>
               <div>
-                <p className="font-heading text-lg font-bold text-foreground">ENGEE HOLIDAYS</p>
+                <p className="font-heading text-lg font-bold text-foreground">SOS Travel house</p>
                 <p className="text-[10px] font-medium uppercase tracking-widest text-primary">Premium Tours</p>
               </div>
             </div>
@@ -99,9 +99,9 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="mailto:vineet@engeeholidays.com" className="flex items-center gap-2.5 text-sm text-muted-foreground transition-colors hover:text-primary">
+                <a href="mailto:test@sostravelholidays.com" className="flex items-center gap-2.5 text-sm text-muted-foreground transition-colors hover:text-primary">
                   <Mail className="h-4 w-4 shrink-0 text-primary" />
-                  vineet@engeeholidays.com
+                  test@sostravelholidays.com
                 </a>
               </li>
             </ul>
@@ -114,10 +114,11 @@ export default function Footer() {
 
         <div className="mt-10 border-t border-border pt-6 text-center">
           <p className="text-xs text-muted-foreground">
-            (c) 2026 ENGEE HOLIDAYS. All rights reserved.
+            (c) 2026 SOS Travel house. All rights reserved.
           </p>
         </div>
       </div>
     </footer>
   );
 }
+

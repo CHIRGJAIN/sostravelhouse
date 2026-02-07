@@ -283,8 +283,8 @@ export default function Admin() {
               <div className="card-surface p-5 space-y-4">
                 <h3 className="font-heading text-base font-semibold text-foreground">Business Profile</h3>
                 {[
-                  { label: "Business Name", value: "ENGEE HOLIDAYS" },
-                  { label: "Support Email", value: "vineet@engeeholidays.com" },
+                  { label: "Business Name", value: "SOS Travel house" },
+                  { label: "Support Email", value: "test@sostravelholidays.com" },
                   { label: "Support Phone", value: "+91 9811622000" },
                 ].map((item) => (
                   <div key={item.label}>
@@ -317,3 +317,4 @@ export default function Admin() {
     </div>
   );
 }
+

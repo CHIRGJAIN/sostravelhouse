@@ -33,7 +33,7 @@ export default function Destinations() {
         <section>
           <div className="flex flex-wrap items-end justify-between gap-3">
             <div>
-              <h2 className="font-heading text-2xl font-bold text-foreground">Why Travel With ENGEE</h2>
+              <h2 className="font-heading text-2xl font-bold text-foreground">Why Travel With SOS Travel house</h2>
               <p className="mt-2 text-muted-foreground">A travel partner focused on experience and reliability.</p>
             </div>
           </div>

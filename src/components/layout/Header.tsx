@@ -35,8 +35,8 @@ export default function Header() {
               <MapPin className="h-5 w-5 text-primary-foreground" />
             </div>
             <div className="flex flex-col">
-              <span className="font-heading text-lg font-bold leading-tight text-foreground">ENGEE</span>
-              <span className="text-[10px] font-medium uppercase tracking-widest text-primary">HOLIDAYS</span>
+              <span className="font-heading text-lg font-bold leading-tight text-foreground">SOS</span>
+              <span className="text-[10px] font-medium uppercase tracking-widest text-primary">Travel house</span>
             </div>
           </Link>
 

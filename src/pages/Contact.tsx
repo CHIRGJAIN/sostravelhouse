@@ -57,7 +57,7 @@ export default function Contact() {
             {[
               { icon: MapPin, label: "Office", value: "Delhi, India" },
               { icon: Phone, label: "Phone", value: "+91 9811622000", href: "tel:9811622000" },
-              { icon: Mail, label: "Email", value: "vineet@engeeholidays.com", href: "mailto:vineet@engeeholidays.com" },
+              { icon: Mail, label: "Email", value: "test@sostravelholidays.com", href: "mailto:test@sostravelholidays.com" },
               { icon: Clock, label: "Hours", value: "Mon-Sat: 9AM - 7PM IST" },
             ].map((item) => (
               <div key={item.label} className="flex items-start gap-3 rounded-xl border border-border bg-card p-4">

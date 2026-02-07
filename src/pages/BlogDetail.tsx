@@ -51,7 +51,7 @@ export default function BlogDetail() {
           <p className="text-base leading-relaxed">{post.excerpt}</p>
           <p className="mt-4 leading-relaxed">{post.content}</p>
           <p className="mt-4 leading-relaxed">
-            Planning your next adventure? Browse our curated tour packages at ENGEE HOLIDAYS and let our experts craft the perfect itinerary for you.
+            Planning your next adventure? Browse our curated tour packages at SOS Travel house and let our experts craft the perfect itinerary for you.
           </p>
         </article>
 
@@ -72,3 +72,4 @@ export default function BlogDetail() {
     </div>
   );
 }
+

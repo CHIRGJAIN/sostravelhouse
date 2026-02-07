@@ -447,11 +447,11 @@ export const tours: Tour[] = [
 ];
 
 export const reviews: Review[] = [
-  { id: 1, tourId: 1, name: "Priya Sharma", avatar: "PS", rating: 5, date: "2026-01-15", comment: "Absolutely loved the Goa trip! The hotel was amazing and the sunset cruise was the highlight. ENGEE HOLIDAYS made everything seamless.", destination: "Goa" },
+  { id: 1, tourId: 1, name: "Priya Sharma", avatar: "PS", rating: 5, date: "2026-01-15", comment: "Absolutely loved the Goa trip! The hotel was amazing and the sunset cruise was the highlight. SOS Travel house made everything seamless.", destination: "Goa" },
   { id: 2, tourId: 2, name: "Rahul Gupta", avatar: "RG", rating: 5, date: "2026-01-10", comment: "Kerala was magical! The houseboat experience was once in a lifetime. Great food and even better views. Highly recommend!", destination: "Kerala" },
   { id: 3, tourId: 4, name: "Ananya Patel", avatar: "AP", rating: 5, date: "2025-12-28", comment: "Maldives was a dream come true! The water villa was incredible. Everything was perfectly organized. Worth every penny!", destination: "Maldives" },
   { id: 4, tourId: 3, name: "Vikram Singh", avatar: "VS", rating: 4, date: "2025-12-20", comment: "Rajasthan tour was spectacular. The heritage hotels added so much charm. Desert safari was thrilling. Only wish it was longer!", destination: "Rajasthan" },
-  { id: 5, tourId: 5, name: "Meera Krishnan", avatar: "MK", rating: 4, date: "2025-12-15", comment: "Thailand was fun-packed! Phi Phi Islands were breathtaking. The team was very helpful. Would book with ENGEE again!", destination: "Thailand" },
+  { id: 5, tourId: 5, name: "Meera Krishnan", avatar: "MK", rating: 4, date: "2025-12-15", comment: "Thailand was fun-packed! Phi Phi Islands were breathtaking. The team was very helpful. Would book with SOS Travel house again!", destination: "Thailand" },
   { id: 6, tourId: 6, name: "Arjun Reddy", avatar: "AR", rating: 5, date: "2025-11-30", comment: "Kashmir in autumn is paradise on earth. The shikara ride at sunset was unforgettable. Excellent arrangements throughout.", destination: "Kashmir" },
   { id: 7, tourId: 8, name: "Sneha Joshi", avatar: "SJ", rating: 4, date: "2025-11-20", comment: "Dubai was dazzling! Loved the desert safari and Burj Khalifa. Great value for the experience provided.", destination: "Dubai" },
   { id: 8, tourId: 11, name: "Karan Malhotra", avatar: "KM", rating: 5, date: "2025-11-10", comment: "Switzerland was beyond expectations! Jungfraujoch and Glacier Express were incredible. Luxury at its finest!", destination: "Switzerland" },
@@ -466,7 +466,7 @@ export const blogPosts: BlogPost[] = [
     id: 1, slug: "top-10-honeymoon-destinations-india", title: "Top 10 Honeymoon Destinations in India for 2026",
     excerpt: "Discover the most romantic getaways across India, from serene backwaters to majestic mountains.",
     content: "India offers an incredible variety of honeymoon destinations that cater to every couple's dream...",
-    author: "Vineet Kumar", date: "2026-01-20", readTime: "8 min", tags: ["Honeymoon", "India", "Travel Tips"],
+    author: "test", date: "2026-01-20", readTime: "8 min", tags: ["Honeymoon", "India", "Travel Tips"],
     image: tourImages[6], featured: true,
   },
   {
@@ -494,13 +494,13 @@ export const blogPosts: BlogPost[] = [
     id: 5, slug: "winter-destinations-india-2026", title: "Best Winter Destinations in India for 2026",
     excerpt: "From snow-capped peaks to sunny beaches, find your perfect winter escape.",
     content: "India's diverse geography means you can experience everything from snowfall to sunshine...",
-    author: "Vineet Kumar", date: "2025-12-20", readTime: "5 min", tags: ["Winter", "India", "Seasonal"],
+    author: "test", date: "2025-12-20", readTime: "5 min", tags: ["Winter", "India", "Seasonal"],
     image: tourImages[3], featured: false,
   },
 ];
 
 export const coupons: Coupon[] = [
-  { code: "ENGEE10", discount: 10, type: "percent", minAmount: 20000, description: "10% off on orders above INR 20,000", valid: true },
+  { code: "SOS10", discount: 10, type: "percent", minAmount: 20000, description: "10% off on orders above INR 20,000", valid: true },
   { code: "FIRST5000", discount: 5000, type: "flat", minAmount: 30000, description: "Flat INR 5,000 off on your first booking", valid: true },
   { code: "HONEYMOON15", discount: 15, type: "percent", minAmount: 40000, description: "15% off on honeymoon packages", valid: true },
   { code: "SUMMER20", discount: 20, type: "percent", minAmount: 25000, description: "20% summer sale discount", valid: false },
@@ -510,14 +510,15 @@ export const teamMembers = [
   { name: "Vineet Kumar", role: "Founder & CEO", bio: "20+ years in the travel industry, passionate about creating unforgettable experiences.", avatar: "VK" },
   { name: "Priya Mehta", role: "Head of Operations", bio: "Expert in tour logistics, ensuring every trip runs like clockwork.", avatar: "PM" },
   { name: "Arjun Singh", role: "Lead Travel Consultant", bio: "Traveled to 50+ countries, helps clients find their perfect destination.", avatar: "AS" },
-  { name: "Sneha Kapoor", role: "Marketing Director", bio: "Bringing the ENGEE HOLIDAYS experience to travelers worldwide.", avatar: "SK" },
+  { name: "Sneha Kapoor", role: "Marketing Director", bio: "Bringing the SOS Travel house experience to travelers worldwide.", avatar: "SK" },
 ];
 
 export const faqs = [
-  { q: "How do I book a tour with ENGEE HOLIDAYS?", a: "You can browse our tours on the website, select your preferred package, choose dates and travelers, and proceed to booking. Alternatively, call us at 9811622000 or fill out the custom trip planner form." },
+  { q: "How do I book a tour with SOS Travel house?", a: "You can browse our tours on the website, select your preferred package, choose dates and travelers, and proceed to booking. Alternatively, call us at 9811622000 or fill out the custom trip planner form." },
   { q: "Is flight included in the tour price?", a: "Most domestic packages don't include flights unless specified. International packages may include flights - check the 'Inclusions' section of each tour for details." },
   { q: "Can I customize a tour package?", a: "Absolutely! Use our Custom Trip Planner to share your preferences, and our team will create a personalized itinerary within 24 hours." },
   { q: "What is the cancellation policy?", a: "Cancellations made 30+ days before departure receive 90% refund. 15-30 days: 50% refund. Less than 15 days: No refund. See our Policies page for details." },
   { q: "Do you provide visa assistance?", a: "Yes, for international tours we provide complete visa documentation support. Our team guides you through the entire process." },
   { q: "Are tours suitable for senior citizens?", a: "Many of our tours are senior-friendly. We can customize itineraries to ensure comfortable pacing. Contact us to discuss specific requirements." },
 ];
+
