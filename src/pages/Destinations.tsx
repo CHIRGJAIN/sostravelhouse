@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+﻿import { Link } from "react-router-dom";
 import { Globe, Plane, Headphones, ShieldCheck, MapPin, Sparkles } from "lucide-react";
 import PageHeader from "@/components/layout/PageHeader";
 import { Button } from "@/components/ui/button";
@@ -33,7 +33,7 @@ export default function Destinations() {
         <section>
           <div className="flex flex-wrap items-end justify-between gap-3">
             <div>
-              <h2 className="font-heading text-2xl font-bold text-foreground">Why Travel With Amma Yatra</h2>
+              <h2 className="font-heading text-2xl font-bold text-foreground">Why Travel With Jayambe Holidays</h2>
               <p className="mt-2 text-muted-foreground">A travel partner focused on experience and reliability.</p>
             </div>
           </div>

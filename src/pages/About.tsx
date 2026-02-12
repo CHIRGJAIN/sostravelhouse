@@ -1,11 +1,11 @@
-import { Shield, Globe, Heart, Award } from "lucide-react";
+﻿import { Shield, Globe, Heart, Award } from "lucide-react";
 import { teamMembers } from "@/data/mockData";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import PageHeader from "@/components/layout/PageHeader";
 
 const milestones = [
-  { year: "2005", title: "Founded", desc: "Amma Yatra started as a small travel desk in Chennai." },
+  { year: "2005", title: "Founded", desc: "Jayambe Holidays started as a small travel desk in Chennai." },
   { year: "2010", title: "International Launch", desc: "Expanded to international destinations across 15 countries." },
   { year: "2015", title: "10,000 Travelers", desc: "Reached the milestone of 10,000 happy travelers." },
   { year: "2020", title: "Digital Transformation", desc: "Launched online booking platform and virtual tours." },
@@ -15,7 +15,7 @@ const milestones = [
 export default function About() {
   return (
     <div className="min-h-screen bg-background">
-      <PageHeader title="About Amma Yatra" subtitle="Your trusted partner in travel since 2005." />
+      <PageHeader title="About Jayambe Holidays" subtitle="Your trusted partner in travel since 2005." />
 
       <div className="container mx-auto px-4 py-12 space-y-16">
         {/* Mission */}

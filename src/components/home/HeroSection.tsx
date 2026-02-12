@@ -1,4 +1,4 @@
-import { useState } from "react";
+﻿import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Search, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -68,7 +68,7 @@ export default function HeroSection() {
               Explore the world with{" "}
               <span className="relative">
                 <span className="bg-gradient-to-r from-accent to-accent/80 bg-clip-text text-transparent">
-                  Amma Yatra
+                  Jayambe Holidays
                 </span>
               </span>
             </motion.h1>

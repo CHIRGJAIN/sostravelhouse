@@ -1,4 +1,4 @@
-import { useState } from "react";
+﻿import { useState } from "react";
 import { LayoutDashboard, Map, CalendarCheck, MessageSquare, Star, Tag, Settings, Menu, X } from "lucide-react";
 import { tours, reviews, coupons } from "@/data/mockData";
 import { Button } from "@/components/ui/button";
@@ -283,8 +283,8 @@ export default function Admin() {
               <div className="card-surface p-5 space-y-4">
                 <h3 className="font-heading text-base font-semibold text-foreground">Business Profile</h3>
                 {[
-                  { label: "Business Name", value: "Amma Yatra" },
-                  { label: "Support Email", value: "hello@ammayatra.com" },
+                  { label: "Business Name", value: "Jayambe Holidays" },
+                  { label: "Support Email", value: "hello@jayambeholidays.com" },
                   { label: "Support Phone", value: "+91 9000000000" },
                 ].map((item) => (
                   <div key={item.label}>

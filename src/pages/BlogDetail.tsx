@@ -1,4 +1,4 @@
-import { useParams, Link } from "react-router-dom";
+﻿import { useParams, Link } from "react-router-dom";
 import { blogPosts } from "@/data/mockData";
 import { Clock, ArrowLeft, Share2, Facebook, Twitter } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -51,7 +51,7 @@ export default function BlogDetail() {
           <p className="text-base leading-relaxed">{post.excerpt}</p>
           <p className="mt-4 leading-relaxed">{post.content}</p>
           <p className="mt-4 leading-relaxed">
-            Planning your next adventure? Browse our curated tour packages at Amma Yatra and let our experts craft the perfect itinerary for you.
+            Planning your next adventure? Browse our curated tour packages at Jayambe Holidays and let our experts craft the perfect itinerary for you.
           </p>
         </article>
 

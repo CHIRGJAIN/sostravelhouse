@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useState, useEffect, useCallback } from "react";
+﻿import React, { createContext, useContext, useState, useEffect, useCallback } from "react";
 import { Tour } from "@/data/mockData";
 import { useToast } from "@/hooks/use-toast";
 
@@ -32,7 +32,7 @@ export function ShortlistProvider({ children }: { children: React.ReactNode }) {
   const { toast } = useToast();
   const [items, setItems] = useState<ShortlistItem[]>(() => {
     try {
-      const saved = localStorage.getItem("ammayatra-shortlist");
+      const saved = localStorage.getItem("jayambeholidays-shortlist");
       return saved ? JSON.parse(saved) : [];
     } catch { return []; }
   });
@@ -40,7 +40,7 @@ export function ShortlistProvider({ children }: { children: React.ReactNode }) {
   const [compareList, setCompareList] = useState<Tour[]>([]);
 
   useEffect(() => {
-    localStorage.setItem("ammayatra-shortlist", JSON.stringify(items));
+    localStorage.setItem("jayambeholidays-shortlist", JSON.stringify(items));
   }, [items]);
 
   const addItem = useCallback((tour: Tour) => {

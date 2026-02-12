@@ -1,4 +1,4 @@
-import { Shield, Eye, Headphones, Star } from "lucide-react";
+﻿import { Shield, Eye, Headphones, Star } from "lucide-react";
 import { motion } from "framer-motion";
 
 const features = [
@@ -14,7 +14,7 @@ export default function WhyEngeeSection() {
       <div className="container mx-auto px-4">
         <div className="text-center">
           <h2 id="why-heading" className="font-heading text-3xl font-bold text-foreground md:text-4xl">
-            Why Amma Yatra?
+            Why Jayambe Holidays?
           </h2>
           <p className="mx-auto mt-3 max-w-lg text-muted-foreground">
             We go beyond the ordinary to deliver extraordinary travel experiences

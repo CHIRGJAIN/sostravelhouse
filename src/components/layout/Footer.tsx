@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+﻿import { Link } from "react-router-dom";
 import { MapPin, Phone, Mail, Facebook, Instagram, Twitter, Youtube } from "lucide-react";
 
 const quickLinks = [
@@ -36,7 +36,7 @@ export default function Footer() {
                 <MapPin className="h-5 w-5 text-primary-foreground" />
               </div>
               <div>
-                <p className="font-heading text-lg font-bold text-foreground">Amma Yatra</p>
+                <p className="font-heading text-lg font-bold text-foreground">Jayambe Holidays</p>
                 <p className="text-[10px] font-medium uppercase tracking-widest text-primary">Premium Tours</p>
               </div>
             </div>
@@ -90,7 +90,7 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start gap-2.5">
                 <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
-                <span className="text-sm text-muted-foreground">123 Amma Yatra Avenue, T. Nagar, Chennai, Tamil Nadu 600017</span>
+                <span className="text-sm text-muted-foreground">123 Jayambe Holidays Avenue, T. Nagar, Chennai, Tamil Nadu 600017</span>
               </li>
               <li>
                 <a href="tel:9000000000" className="flex items-center gap-2.5 text-sm text-muted-foreground transition-colors hover:text-primary">
@@ -99,9 +99,9 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="mailto:hello@ammayatra.com" className="flex items-center gap-2.5 text-sm text-muted-foreground transition-colors hover:text-primary">
+                <a href="mailto:hello@jayambeholidays.com" className="flex items-center gap-2.5 text-sm text-muted-foreground transition-colors hover:text-primary">
                   <Mail className="h-4 w-4 shrink-0 text-primary" />
-                  hello@ammayatra.com
+                  hello@jayambeholidays.com
                 </a>
               </li>
             </ul>
@@ -114,7 +114,7 @@ export default function Footer() {
 
         <div className="mt-10 border-t border-border pt-6 text-center">
           <p className="text-xs text-muted-foreground">
-            (c) 2026 Amma Yatra. All rights reserved.
+            (c) 2026 Jayambe Holidays. All rights reserved.
           </p>
         </div>
       </div>

@@ -1,4 +1,4 @@
-import { useState } from "react";
+﻿import { useState } from "react";
 import { MapPin, Phone, Mail, Clock } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useToast } from "@/hooks/use-toast";
@@ -55,9 +55,9 @@ export default function Contact() {
           <div className="space-y-6">
             <h2 className="font-heading text-2xl font-bold text-foreground">Get in Touch</h2>
             {[
-              { icon: MapPin, label: "Office", value: "123 Amma Yatra Avenue, T. Nagar, Chennai, Tamil Nadu 600017" },
+              { icon: MapPin, label: "Office", value: "123 Jayambe Holidays Avenue, T. Nagar, Chennai, Tamil Nadu 600017" },
               { icon: Phone, label: "Phone", value: "+91 9000000000", href: "tel:9000000000" },
-              { icon: Mail, label: "Email", value: "hello@ammayatra.com", href: "mailto:hello@ammayatra.com" },
+              { icon: Mail, label: "Email", value: "hello@jayambeholidays.com", href: "mailto:hello@jayambeholidays.com" },
               { icon: Clock, label: "Hours", value: "Mon-Sat: 9AM - 7PM IST" },
             ].map((item) => (
               <div key={item.label} className="flex items-start gap-3 rounded-xl border border-border bg-card p-4">
