@@ -68,7 +68,7 @@ export default function HeroSection() {
               Explore the world with{" "}
               <span className="relative">
                 <span className="bg-gradient-to-r from-accent to-accent/80 bg-clip-text text-transparent">
-                  SOS Travel house
+                  Amma Yatra
                 </span>
               </span>
             </motion.h1>

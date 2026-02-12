@@ -36,7 +36,7 @@ export default function WhatsAppButton() {
                 </Button>
               </div>
               <p className="text-center text-xs text-muted-foreground">
-                Or call us: <a href="tel:9811622000" className="font-medium text-primary">9811622000</a>
+                Or call us: <a href="tel:9000000000" className="font-medium text-primary">9000000000</a>
               </p>
             </div>
           </motion.div>

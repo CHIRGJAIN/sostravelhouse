@@ -55,9 +55,9 @@ export default function Contact() {
           <div className="space-y-6">
             <h2 className="font-heading text-2xl font-bold text-foreground">Get in Touch</h2>
             {[
-              { icon: MapPin, label: "Office", value: "Delhi, India" },
-              { icon: Phone, label: "Phone", value: "+91 9811622000", href: "tel:9811622000" },
-              { icon: Mail, label: "Email", value: "test@sostravelholidays.com", href: "mailto:test@sostravelholidays.com" },
+              { icon: MapPin, label: "Office", value: "123 Amma Yatra Avenue, T. Nagar, Chennai, Tamil Nadu 600017" },
+              { icon: Phone, label: "Phone", value: "+91 9000000000", href: "tel:9000000000" },
+              { icon: Mail, label: "Email", value: "hello@ammayatra.com", href: "mailto:hello@ammayatra.com" },
               { icon: Clock, label: "Hours", value: "Mon-Sat: 9AM - 7PM IST" },
             ].map((item) => (
               <div key={item.label} className="flex items-start gap-3 rounded-xl border border-border bg-card p-4">

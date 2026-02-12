@@ -35,8 +35,8 @@ export default function Header() {
               <MapPin className="h-5 w-5 text-primary-foreground" />
             </div>
             <div className="flex flex-col">
-              <span className="font-heading text-lg font-bold leading-tight text-foreground">SOS</span>
-              <span className="text-[10px] font-medium uppercase tracking-widest text-primary">Travel house</span>
+              <span className="font-heading text-lg font-bold leading-tight text-foreground">Amma</span>
+              <span className="text-[10px] font-medium uppercase tracking-widest text-primary">Yatra</span>
             </div>
           </Link>
 
@@ -86,7 +86,7 @@ export default function Header() {
                 )}
               </Button>
             </Link>
-            <a href="tel:9811622000">
+            <a href="tel:9000000000">
               <Button variant="default" size="sm" className="gap-2">
                 <Phone className="h-4 w-4" />
                 <span className="hidden xl:inline">Call Now</span>
@@ -144,9 +144,9 @@ export default function Header() {
                   {link.name}
                 </Link>
               ))}
-              <a href="tel:9811622000" className="block">
+              <a href="tel:9000000000" className="block">
                 <Button className="mt-2 w-full gap-2">
-                  <Phone className="h-4 w-4" /> Call 9811622000
+                  <Phone className="h-4 w-4" /> Call 9000000000
                 </Button>
               </a>
             </nav>

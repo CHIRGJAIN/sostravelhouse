@@ -32,7 +32,7 @@ export function ShortlistProvider({ children }: { children: React.ReactNode }) {
   const { toast } = useToast();
   const [items, setItems] = useState<ShortlistItem[]>(() => {
     try {
-      const saved = localStorage.getItem("engee-shortlist");
+      const saved = localStorage.getItem("ammayatra-shortlist");
       return saved ? JSON.parse(saved) : [];
     } catch { return []; }
   });
@@ -40,7 +40,7 @@ export function ShortlistProvider({ children }: { children: React.ReactNode }) {
   const [compareList, setCompareList] = useState<Tour[]>([]);
 
   useEffect(() => {
-    localStorage.setItem("engee-shortlist", JSON.stringify(items));
+    localStorage.setItem("ammayatra-shortlist", JSON.stringify(items));
   }, [items]);
 
   const addItem = useCallback((tour: Tour) => {

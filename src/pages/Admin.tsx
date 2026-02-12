@@ -22,10 +22,10 @@ const stats = [
 ];
 
 const bookings = [
-  { id: "ENG-A1B2C", customer: "Rahul Gupta", tour: "Maldives Escape", date: "2026-03-15", status: "Confirmed", amount: 131998 },
-  { id: "ENG-D3E4F", customer: "Priya Sharma", tour: "Kerala Backwaters", date: "2026-03-10", status: "Pending", amount: 49998 },
-  { id: "ENG-G5H6I", customer: "Amit Kumar", tour: "Rajasthan Heritage", date: "2026-03-20", status: "Confirmed", amount: 65998 },
-  { id: "ENG-J7K8L", customer: "Sneha Joshi", tour: "Dubai Experience", date: "2026-04-01", status: "Cancelled", amount: 111998 },
+  { id: "AMY-A1B2C", customer: "Rahul Gupta", tour: "Maldives Escape", date: "2026-03-15", status: "Confirmed", amount: 131998 },
+  { id: "AMY-D3E4F", customer: "Priya Sharma", tour: "Kerala Backwaters", date: "2026-03-10", status: "Pending", amount: 49998 },
+  { id: "AMY-G5H6I", customer: "Amit Kumar", tour: "Rajasthan Heritage", date: "2026-03-20", status: "Confirmed", amount: 65998 },
+  { id: "AMY-J7K8L", customer: "Sneha Joshi", tour: "Dubai Experience", date: "2026-04-01", status: "Cancelled", amount: 111998 },
 ];
 
 const enquiries = [
@@ -283,9 +283,9 @@ export default function Admin() {
               <div className="card-surface p-5 space-y-4">
                 <h3 className="font-heading text-base font-semibold text-foreground">Business Profile</h3>
                 {[
-                  { label: "Business Name", value: "SOS Travel house" },
-                  { label: "Support Email", value: "test@sostravelholidays.com" },
-                  { label: "Support Phone", value: "+91 9811622000" },
+                  { label: "Business Name", value: "Amma Yatra" },
+                  { label: "Support Email", value: "hello@ammayatra.com" },
+                  { label: "Support Phone", value: "+91 9000000000" },
                 ].map((item) => (
                   <div key={item.label}>
                     <label className="text-xs text-muted-foreground">{item.label}</label>

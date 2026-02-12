@@ -36,12 +36,12 @@ export default function Footer() {
                 <MapPin className="h-5 w-5 text-primary-foreground" />
               </div>
               <div>
-                <p className="font-heading text-lg font-bold text-foreground">SOS Travel house</p>
+                <p className="font-heading text-lg font-bold text-foreground">Amma Yatra</p>
                 <p className="text-[10px] font-medium uppercase tracking-widest text-primary">Premium Tours</p>
               </div>
             </div>
             <p className="text-sm leading-relaxed text-muted-foreground">
-              Your trusted tour operator based in Delhi, India. Creating unforgettable travel experiences since 2005.
+              Your trusted tour operator based in Chennai, India. Creating unforgettable travel experiences since 2005.
             </p>
             <div className="flex gap-3">
               {socialLinks.map((item) => (
@@ -90,18 +90,18 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start gap-2.5">
                 <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
-                <span className="text-sm text-muted-foreground">Delhi, India</span>
+                <span className="text-sm text-muted-foreground">123 Amma Yatra Avenue, T. Nagar, Chennai, Tamil Nadu 600017</span>
               </li>
               <li>
-                <a href="tel:9811622000" className="flex items-center gap-2.5 text-sm text-muted-foreground transition-colors hover:text-primary">
+                <a href="tel:9000000000" className="flex items-center gap-2.5 text-sm text-muted-foreground transition-colors hover:text-primary">
                   <Phone className="h-4 w-4 shrink-0 text-primary" />
-                  +91 9811622000
+                  +91 9000000000
                 </a>
               </li>
               <li>
-                <a href="mailto:test@sostravelholidays.com" className="flex items-center gap-2.5 text-sm text-muted-foreground transition-colors hover:text-primary">
+                <a href="mailto:hello@ammayatra.com" className="flex items-center gap-2.5 text-sm text-muted-foreground transition-colors hover:text-primary">
                   <Mail className="h-4 w-4 shrink-0 text-primary" />
-                  test@sostravelholidays.com
+                  hello@ammayatra.com
                 </a>
               </li>
             </ul>
@@ -114,7 +114,7 @@ export default function Footer() {
 
         <div className="mt-10 border-t border-border pt-6 text-center">
           <p className="text-xs text-muted-foreground">
-            (c) 2026 SOS Travel house. All rights reserved.
+            (c) 2026 Amma Yatra. All rights reserved.
           </p>
         </div>
       </div>
