@@ -93,9 +93,9 @@ export default function Footer() {
                 <span className="text-sm text-muted-foreground">123 Jayambe Holidays Avenue, T. Nagar, Chennai, Tamil Nadu 600017</span>
               </li>
               <li>
-                <a href="tel:9000000000" className="flex items-center gap-2.5 text-sm text-muted-foreground transition-colors hover:text-primary">
+                <a href="tel:9422880040" className="flex items-center gap-2.5 text-sm text-muted-foreground transition-colors hover:text-primary">
                   <Phone className="h-4 w-4 shrink-0 text-primary" />
-                  +91 9000000000
+                  +91 9422880040
                 </a>
               </li>
               <li>

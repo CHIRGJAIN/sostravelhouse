@@ -56,7 +56,7 @@ export default function Contact() {
             <h2 className="font-heading text-2xl font-bold text-foreground">Get in Touch</h2>
             {[
               { icon: MapPin, label: "Office", value: "123 Jayambe Holidays Avenue, T. Nagar, Chennai, Tamil Nadu 600017" },
-              { icon: Phone, label: "Phone", value: "+91 9000000000", href: "tel:9000000000" },
+              { icon: Phone, label: "Phone", value: "+91 9422880040", href: "tel:9422880040" },
               { icon: Mail, label: "Email", value: "hello@jayambeholidays.com", href: "mailto:hello@jayambeholidays.com" },
               { icon: Clock, label: "Hours", value: "Mon-Sat: 9AM - 7PM IST" },
             ].map((item) => (

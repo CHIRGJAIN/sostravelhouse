@@ -285,7 +285,7 @@ export default function Admin() {
                 {[
                   { label: "Business Name", value: "Jayambe Holidays" },
                   { label: "Support Email", value: "hello@jayambeholidays.com" },
-                  { label: "Support Phone", value: "+91 9000000000" },
+                  { label: "Support Phone", value: "+91 9422880040" },
                 ].map((item) => (
                   <div key={item.label}>
                     <label className="text-xs text-muted-foreground">{item.label}</label>

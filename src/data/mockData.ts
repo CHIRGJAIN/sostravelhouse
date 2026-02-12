@@ -514,7 +514,7 @@ export const teamMembers = [
 ];
 
 export const faqs = [
-  { q: "How do I book a tour with Jayambe Holidays?", a: "You can browse our tours on the website, select your preferred package, choose dates and travelers, and proceed to booking. Alternatively, call us at 9000000000 or fill out the custom trip planner form." },
+  { q: "How do I book a tour with Jayambe Holidays?", a: "You can browse our tours on the website, select your preferred package, choose dates and travelers, and proceed to booking. Alternatively, call us at 9422880040 or fill out the custom trip planner form." },
   { q: "Is flight included in the tour price?", a: "Most domestic packages don't include flights unless specified. International packages may include flights - check the 'Inclusions' section of each tour for details." },
   { q: "Can I customize a tour package?", a: "Absolutely! Use our Custom Trip Planner to share your preferences, and our team will create a personalized itinerary within 24 hours." },
   { q: "What is the cancellation policy?", a: "Cancellations made 30+ days before departure receive 90% refund. 15-30 days: 50% refund. Less than 15 days: No refund. See our Policies page for details." },

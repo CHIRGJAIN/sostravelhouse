@@ -86,7 +86,7 @@ export default function Header() {
                 )}
               </Button>
             </Link>
-            <a href="tel:9000000000">
+            <a href="tel:9422880040">
               <Button variant="default" size="sm" className="gap-2">
                 <Phone className="h-4 w-4" />
                 <span className="hidden xl:inline">Call Now</span>
@@ -144,9 +144,9 @@ export default function Header() {
                   {link.name}
                 </Link>
               ))}
-              <a href="tel:9000000000" className="block">
+              <a href="tel:9422880040" className="block">
                 <Button className="mt-2 w-full gap-2">
-                  <Phone className="h-4 w-4" /> Call 9000000000
+                  <Phone className="h-4 w-4" /> Call 9422880040
                 </Button>
               </a>
             </nav>
